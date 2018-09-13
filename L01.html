@@ -1,0 +1,27 @@
+
+
+<html>
+
+    <head>
+        <title> Bookmarklet </title>
+    </head>
+
+    <body>
+        <p>
+            This is a <a href="javascript:(function(){alert('bookmarklet')})();">bookmarklet</a> .
+            This is a <a href="bookmarklet.js">bookmarklet2</a> .
+        </p>
+    </body>
+
+    <script>
+        (function () {
+          var script = document.createElement('script');
+          script.src = 'bookmarklet.js';
+          document.body.appendChild(script);
+        })();
+        
+        
+        // javascript:( function(){alert('here');})();
+    
+    </script>
+</html>

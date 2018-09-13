@@ -1,0 +1,1 @@
+javascript:( function(){alert('bookmarklet 2');})();

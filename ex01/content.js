@@ -9,7 +9,7 @@ var segments  = bdy[0].innerHTML.split(word) ;
 var result    = '' ;
 if( segments.length > 0 ){
     result = segments[0] ;
-    for( var i=1 ; i<segments.length-1 ; i++){
+    for( var i=1 ; i<segments.length ; i++){
         result = result + template+ segments[i] ;
     }
 }
